@@ -1,0 +1,77 @@
+*{
+    margin: 5px;
+}
+
+#main{
+   display: flex;
+   flex-direction: column;
+}
+
+#top{
+    border: solid 1px purple;
+}
+
+#middle{
+    width: 100%;
+    display: flex;
+    min-height: 737px;
+}
+
+#footer{
+    border: solid 1px blueviolet;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+#topTop{
+    border: solid 1px red;
+    display: flex;
+}
+
+#topBottom{
+    border: 1px solid blue;
+}
+
+#topTopLeft{
+    border: 1px;
+    width: 20%;
+}
+
+#topTopLeft >img{
+    width: 10vw;
+    height: 10vh;
+}
+
+#topTopRight{
+    width: 80%;
+    border: 1px dotted black;
+    text-align: center;
+    align-self: center;
+}
+
+#topTopRight >h1{
+    font-size: 1.4rem;
+}
+
+#middleLeft{
+    width: 80%;
+    border: 1px solid palevioletred;
+    text-align: center;
+    align-content: center;
+}
+
+#middleRight{
+    width: 20%;
+    border: 1px solid goldenrod;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/8/8d/Nicol_Bolas%2C_Planeswalker.jpg/revision/latest/scale-to-width-down/250?cb=20081212143010');
+}
+#middleLeft >img{
+    max-width: 30vw;
+    max-height: 35vh;
+}
